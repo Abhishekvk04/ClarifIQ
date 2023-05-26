@@ -1,0 +1,30 @@
+body {
+    background-image: url(/images/gradient.avif);
+    
+}
+
+h1 {
+    background-color: #8eee81b4;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    border-color: black;
+    border-radius: 20px;
+}
+.para_col{
+    background-color: #53e06db4;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+.col-img{
+    height:50%;
+    width: 50%;
+    text-align:left ;
+
+}
+.bold{
+    size: 20;
+}

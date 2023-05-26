@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colload | Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="Images/logo.png" alt="">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="doubts.html">DOUBTS</a></li>
+                    <li><a href="calender.html">CALENDER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+        <div class="text-box">
+            <h1>ASK DOUBTS HERE!!</h1>
+            <p class="para-edit">Here you can clear your doubts with your subject <br>lectures and organise your daily schedule.</p>
+            <a href="doubts.html" class="hero-btn">Ask Me</a>
+        </div>
+
+   
+
+
+    <!----- footer------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p><b class="bold">H</b>ere in this website you can send doubts to your <br>respected department and 
+            ask the lecture about the doubts to <br>be cleared. And also student can text their doubts, if the doubts <br>contain image it 
+            allows you to upload the image so that student can <br>communicate with the lectures clearly and they can solve your doubt.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-compass-drafting"></i>  -Fresh Geeks</p>
+
+    </section>
+
+
+
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
